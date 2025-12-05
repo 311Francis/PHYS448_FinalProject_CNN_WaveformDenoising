@@ -10,5 +10,6 @@ b. TensorFlow
 
 c. PyTorch
 
-##Data Extraction
+## Data Extraction
+
 Waveforms were loaded from the MJD_Train_1.hdf5 dataset of the Majorana Demonstrator experiment.The notebook illustrates how  to choose waveforms with different features and modify the desired energy range. 
