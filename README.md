@@ -15,4 +15,5 @@ c. PyTorch
 Waveforms were loaded from the MJD_Train_1.hdf5 dataset of the Majorana Demonstrator experiment.The notebook illustrates how  to choose waveforms with different features and modify the desired energy range. 
 
 Here are the data: https://dataplanet.ucsd.edu/dataset.xhtml?persistentId=perma:83.ucsddata/UQWQAV
+
 If you have further question, you can consult the paper: https://arxiv.org/abs/2308.10856
