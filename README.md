@@ -17,3 +17,6 @@ Waveforms were loaded from the MJD_Train_1.hdf5 dataset of the Majorana Demonstr
 Here are the data: https://dataplanet.ucsd.edu/dataset.xhtml?persistentId=perma:83.ucsddata/UQWQAV
 
 If you have further question, you can consult the paper: https://arxiv.org/abs/2308.10856
+
+## CNN
+This part of the code takes waveforms with artificially added noise at various SNR levels and feeds them into the CNN model, training the network to learn the mapping from noisy inputs to clean target waveforms. Through this process, the CNN learns to reconstruct waveforms that closely preserve the true HPGe pulse shape while suppressing unwanted noise. After training, the model can denoise any input waveform, producing outputs with significantly reduced noise while maintaining essential pulse features such as the rising edge and amplitude.
